@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        font-family: 'Poppins', sans-serif;
+}
+.bg-img{
+        background: url("https://www.archidust.com/uploaded_files/project/155040259159987.jpg");
+        
+                
+        height: 100vh;
+        background-size: cover;
+        background-position: center;}
+:root{
+        --blue: #287bff;
+        --white:#fff;
+        --grey: #f5f5f5;
+        --black1: #222;
+        --black2: #999;
+
+}
+body{
+        min-height: 100vh;
+        overflow: hidden;
+}
+.container
+{
+        position: relative;
+        width: 100%;
+
+}
+.navigation
+{
+        position: fixed;
+        width: 300px;
+        height: 100%;
+        background: var(--black2);
+        /* border-left: 10px solid #f00; */
+        transition: 0.5s;
+        overflow: hidden;
+}
+.navigation ul{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+}
+.navigation ul li{
+        position: relative;
+        width: 200%;
+        list-style: none;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+
+}
+.navigation ul li:hover{
+        background: var(--white);
+}
+.navigation ul li a{
+        position: relative;
+        display: block;
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+        color: var(--white);
+}
+.navigation ul li:hover a 
+{
+        color: var(--blue);
+}
+.navigation ul li a .icon
+{
+        position: relative;
+        display: block;
+        min-width: 100px;
+        height: 100px;
+        line-height: 110px;
+        text-align: center;
+}
+.navigation ul li a .icom 
+{
+font-size: 1.75em;
+}
+.navigation ul li a .title 
+{
+        position: relative;
+        display: block;
+        padding: 0 10px;
+        height: 100px;
+        line-height: 100px;
+        text-align: start;
+        white-space: nowrap;
+} 
+.cardBox{
+        position: relative;
+        width: 70%;
+        padding: 20px;
+        top: 50px;
+      right: -350px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 180px;
+}
+.cardBox .card{ 
+        position: relative;
+        background: grey;
+        padding: 50px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+}
+.cardBox .card .numbers{
+        position: relative;
+        font-weight: 400;
+        text-align: right;
+        padding-right: 37px;
+        font-size: 2.5em;
+        color: var(--white);
+        
+}
+.card .cardName
+{
+        color: var(--white);
+       padding-left: 38%;
+       text-align: center;
+        font-size: 1.8em;
+        margin-top: 5px;
+        
+       
+
+       
+
+}
+.cardBox .card:hover{
+        background: var(--blue);
+}

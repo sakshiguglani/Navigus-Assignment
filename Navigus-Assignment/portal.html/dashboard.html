@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Quiz</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="vvv==" crossorigin="anonymous"/>
+                <link rel="stylesheet" href="dashboard.css">
+        </head>
+        <body>
+                <div class="bg-img" 
+                      >
+                   <div class="container">
+                        <div class="navigation">
+                                <ul>
+                                        <li>
+                                                <a href="#">
+                                                        <span class="icon"><ion-icon name="home"></ion-icon></span>
+                                                        <span class="title">Dashboard</span>
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="#">
+                                                        <span class="icon"><ion-icon name="logo-game-controller-b"></ion-icon></span>
+                                                        <span class="title">Quiz</span>
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="#">
+                                                        <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+                                                        <span class="title">Sign Out</span>
+                                                </a>
+                                        </li>
+                                        
+                                </ul>
+                        </div>
+                        
+                        
+
+                </div>
+                
+
+                <!--STUDENT TEACHER-->
+               <div class="cardBox">
+                       <div class="card">
+                               <div>
+                                       <div class="numbers"><ion-icon name="person-add"></ion-icon></div>
+                                       <div class="cardName">Teacher Login</div>
+                               </div>
+                               
+                       </div>
+                       <div class="card">
+                        <div>
+                                <div class="numbers"><ion-icon name="contacts"></ion-icon></div>
+                                <div class="cardName" onclick="quizz()" >Student Login</div>
+                                </a>
+                        </div>
+                        
+                </div>
+               </div>
+                </div>
+
+
+
+
+
+                <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+                <script>
+                        //add hovered class in selected list item
+                        let list = document.querySelectorAll('navigation li')
+                        function activeLink(){
+                                list.forEach((item)=>
+                                item.classList.remove('hovered'));
+                                this.classList.add('hovered');
+                        }
+                        list.forEach((item)=>
+                        item.addEventListener('mouseover', activeLink));
+
+                        function quizz(){
+                                window.location.href="../portal.html/quiz.html/quiz1.html"
+                        }
+                </script>
+        </body>
+        </html>

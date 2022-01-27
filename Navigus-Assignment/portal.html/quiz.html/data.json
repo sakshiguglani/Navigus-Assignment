@@ -1,0 +1,45 @@
+{
+        "Questions": [
+                {
+                        "Quiz": "Q.1) What does HTML stand for?",
+                        "option1": "Hyper Type Markup Language" ,
+                        "option2": "Hyper Text Mark Language",
+                        "option3": "Hyper Type Mark Language",
+                        "option4": "Hyper Text Markup Language",
+                        "answer": "Hyper Text Markup Language"
+
+                },
+                {
+                        "Quiz": "Q.2) What does CSS stand for?",
+                        "option1": "Colourful Style Sheet" ,
+                        "option2": "Computer Style Sheet",
+                        "option3": "Creative Style Sheet",
+                        "option4": "Cascading Style Sheet",
+                        "answer": "Cascading Style Sheet"
+                },
+                {
+                        "Quiz": "Q.3) Which HTML attribute is used to define inline styles?",
+                        "option1": "Style" ,
+                        "option2": "Font",
+                        "option3": "Class",
+                        "option4": "Styles",
+                        "answer": "Style"
+                },
+                {
+                        "Quiz": "Q.4) What is the correct HTML tag for playing video files?",
+                        "option1": "media" ,
+                        "option2": "movie",
+                        "option3": "video",
+                        "option4": "mp4",
+                        "answer": "video"
+                },
+                {
+                        "Quiz": "Q.5) In which part of the HTML metadata is contained?",
+                        "option1": "head tag" ,
+                        "option2": "title tag",
+                        "option3": "html tag",
+                        "option4": "body tag",
+                        "answer": "head tag"
+                }
+        ]
+}
